@@ -1,5 +1,5 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "name": "watchist",
     "description": "Reload browser automatically when file system is changed",
     "keywords": [
