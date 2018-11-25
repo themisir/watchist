@@ -19,7 +19,7 @@ process.argv.forEach(function(arg) {
 });
 
 chokidar
-    .watch(__dirname, { ignored: /^\./ })
+    .watch(process.cwd(), { ignored: /^\./ })
     .on('all', (event, path) => {
         params.debug && console.log('[fs] ' + event + ' - ' + path);
         if (['add', 'change', 'remove'].indexOf(event) >= 0) {
