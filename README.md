@@ -53,4 +53,4 @@ $ watchlist --port=8080 --debug
 $ watchlist -p=8080 -d
 ```
 
-> Note: You can also use `watch` comment instead of `wantchist`.
+> Note: You can also use `watch` comment instead of `watchist`.
